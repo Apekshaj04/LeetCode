@@ -12,5 +12,6 @@ class Solution:
                 else:
                     dp[i][w] = dp[i-1][w]
         
-        # The last cell contains the maximum value for the given capacity W
+        # The last cell contains the maximum 
+        value for the given capacity W
         return dp[n][W]
