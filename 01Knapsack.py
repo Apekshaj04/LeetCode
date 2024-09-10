@@ -3,6 +3,7 @@ class Solution:
         
         n = len(wt)
         # Initialize the DP table with zeros
+        
         dp = [[0 for x in range(W+1)] for i in range(n+1)]
         
         # Build the DP table
