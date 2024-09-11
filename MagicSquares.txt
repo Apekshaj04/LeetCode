@@ -5,6 +5,7 @@ import java.util.Set;
 
 class Solution {
 
+
     private boolean checkMagicSquare(int[][] grid, int r, int c) {
          boolean[] visited = new boolean[10];
         int targetSum = 0;
